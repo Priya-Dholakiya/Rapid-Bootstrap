@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Form </title>
+  <link rel="shortcut icon" href="assets/images/checklist.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+
+    <div class="card w-100" style="max-width: 900px;">
+
+      <div class="row g-0">
+
+        <!-- Image Section -->
+        <div class="col-md-6 d-none d-md-block image-section">
+          <!-- Image is displayed here -->
+        </div>
+
+        <!-- Form Section -->
+        <div class="col-md-6 p-5">
+          <h2 class="text-center text-danger mb-4">Sign Up</h2>
+
+          <form>
+            <!-- Name -->
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+            </div>
+
+            <!-- Terms & Conditions -->
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="terms" required>
+              <label for="terms" class="form-check-label">
+                I agree all statement in <a href="#" class="link">Terms & Conditions</a>
+              </label>
+            </div>
+
+            <!-- Sign Up Button -->
+            <div class="text-center">
+              <button type="submit" class="btn btn-pink w-100">SIGN UP</button>
+            </div>
+
+            <!-- Login Link -->
+            <div class="text-center mt-3">
+              <small>Already have an account? <a href="#" class="link">Login</a></small>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

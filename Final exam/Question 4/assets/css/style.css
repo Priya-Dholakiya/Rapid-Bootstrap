@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(to right, #FAD0C4, #FFD1FF);
+  min-height: 100vh;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.form-control {
+  border-radius: 30px;
+  padding: 12px 20px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 10px #ff7b9c;
+  border-color: #ff7b9c;
+}
+
+.btn-pink {
+  background: #ff7b9c;
+  color: white;
+  border-radius: 30px;
+  padding: 12px 30px;
+  transition: 0.3s;
+}
+
+.btn-pink:hover {
+  background: #ff4d73;
+  transform: scale(1.05);
+}
+
+.link {
+  color: #ff7b9c;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ff4d73;
+}
+
+.image-section {
+  background: url('../images/form.jpg') no-repeat center/cover;
+  min-height: 600px;
+}
+
+@media (max-width: 768px) {
+  .image-section {
+    display: none;
+  }
+}

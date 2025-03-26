@@ -1,0 +1,95 @@
+body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      color: #333;
+      font-family: Arial, sans-serif;
+    }
+
+    .grid-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    .section-title {
+      font-size: 3rem;
+      text-align: center;
+      color: #ff4d73;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+    }
+
+    /* ====== Card Styling ====== */
+    .card {
+      border: none;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      transition: 0.4s;
+      height: 100%;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      height: 220px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .card-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #ff7b9c;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    /* ====== Buttons Styling ====== */
+    .btn-custom {
+      background: #ff7b9c;
+      color: white;
+      transition: 0.3s;
+      border-radius: 30px;
+    }
+
+    .btn-custom:hover {
+      background: #ff4d73;
+      color: #fff;
+      transform: scale(1.1);
+    }
+
+    /* ====== Full-Width Section ====== */
+    .full-width {
+      background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      background-size: cover; /* Fixing blur issue */
+    }
+
+    .full-width h2 {
+      font-size: 3rem;
+      text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .full-width p {
+      font-size: 1.2rem;
+    }
+
+    /* ====== Responsive Styling ====== */
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .full-width h2 {
+        font-size: 2rem;
+      }
+    }

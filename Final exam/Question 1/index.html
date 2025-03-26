@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>grid responsive</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <h2 class="section-title">Balanced Grid Layout</h2>
+
+        <div class="row g-4">
+
+            <!-- Row 1: Two Evenly Spaced Columns -->
+            <div class="col-md-5 offset-md-1">
+                <div class="card">
+                    <img src="assets/images/img1.avif" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">🔥 Offset Column</h5>
+                        <p class="card-text">This column uses <code>offset-md-1</code> to create equal spacing on both
+                            sides.</p>
+                        <a href="#" class="btn btn-custom">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="card">
+                    <img src="assets/images/img2.avif" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">💡 Standard Column</h5>
+                        <p class="card-text">This column balances the layout, making both sides look even and neat.</p>
+                        <a href="#" class="btn btn-custom">Explore</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Width Column -->
+            <div class="col-12">
+                <div class="card border-0 overflow-hidden">
+                    
+                    <!-- Banner Section -->
+                    <div class="position-relative">
+                        <img src="assets/images/img3.avif" class="img-fluid w-100" alt="Banner Image" style="height: 400px; object-fit: cover; filter: brightness(0.8);">
+                        
+                        <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+                            <h2 class="display-4 fw-bold">🌐 Stunning Banner Section</h2>
+                            <p class="lead">This full-width section combines a background image with stylish content.</p>
+                            <a href="#" class="btn btn-warning px-4 py-2 mt-3">Discover More</a>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            
+
+            <!-- Row 2: Three Balanced Columns -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/img4.avif"card-img-top alt="Image 4">
+                    <div class="card-body">
+                        <h5 class="card-title">🎯 Column 1</h5>
+                        <p class="card-text">Perfectly aligned with other columns using <code>col-md-4</code> class.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/img5.avif" class="card-img-top" alt="Image 5">
+                    <div class="card-body">
+                        <h5 class="card-title">🔥 Column 2</h5>
+                        <p class="card-text">Balanced spacing ensures consistent look on all screen sizes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/img6.avif" class="card-img-top" alt="Image 6">
+                    <div class="card-body">
+                        <h5 class="card-title">🌟 Column 3</h5>
+                        <p class="card-text">Neatly aligned column, making the layout symmetrical.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

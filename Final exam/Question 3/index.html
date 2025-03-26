@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Banner</title>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container-fluid p-0">
+
+    <!-- Bootstrap Tabs Navigation -->
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active btn-tab" id="slide1-tab" data-bs-toggle="tab" data-bs-target="#slide1"
+          type="button" role="tab" aria-controls="slide1" aria-selected="true">Slide 1</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link btn-tab" id="slide2-tab" data-bs-toggle="tab" data-bs-target="#slide2" type="button"
+          role="tab" aria-controls="slide2" aria-selected="false">Slide 2</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link btn-tab" id="slide3-tab" data-bs-toggle="tab" data-bs-target="#slide3" type="button"
+          role="tab" aria-controls="slide3" aria-selected="false">Slide 3</button>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content">
+
+      <!-- Slide 1 -->
+      <div class="tab-pane fade show active" id="slide1" role="tabpanel" aria-labelledby="slide1-tab">
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Banner 1">
+        <div class="tab-caption">
+          <h2>Welcome to Our Store</h2>
+          <p>Discover the latest trends and deals!</p>
+          <a href="#" class="btn btn-tab">Shop Now</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="tab-pane fade" id="slide2" role="tabpanel" aria-labelledby="slide2-tab">
+        <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg" alt="Banner 2">
+        <div class="tab-caption">
+          <h2>Exclusive Offers</h2>
+          <p>Get up to 50% off on selected items.</p>
+          <a href="#" class="btn btn-tab">Explore Offers</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="tab-pane fade" id="slide3" role="tabpanel" aria-labelledby="slide3-tab">
+        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" alt="Banner 3">
+        <div class="tab-caption">
+          <h2>Quality & Style</h2>
+          <p>Shop with confidence and elegance.</p>
+          <a href="#" class="btn btn-tab">View Collection</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
